@@ -7,7 +7,7 @@ namespace Plugin.BlurScreen
 {
     public static class BlurUtility
     {
-        public static Bitmap GetBlurrecScreen(Activity activity, Int32 blurredRadius = 20)
+        public static Bitmap GetBlurredScreen(Activity activity, Int32 blurredRadius = 20)
         {
             var map = TakeScreenShot(activity);
             var blurred = BlurBitmap(map, blurredRadius);

@@ -9,7 +9,7 @@ namespace Plugin.BlurScreen
         {
             base.OnStart();
 
-            var blurredScreenBitmap = BlurUtility.GetBlurrecScreen(CrossCurrentActivity.Current.Activity);
+            var blurredScreenBitmap = BlurUtility.GetBlurredScreen(CrossCurrentActivity.Current.Activity);
             var draw = new BitmapDrawable(Resources, blurredScreenBitmap);
             Dialog.Window.SetBackgroundDrawable(draw);
         }
