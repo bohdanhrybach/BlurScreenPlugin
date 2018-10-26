@@ -12,4 +12,9 @@
   <ItemGroup>
     <ProjectReference Include="..\Plugin.BlurScreen.Abstractions.csproj" />
   </ItemGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard1.0\Plugin.BlurScreen.xml</DocumentationFile>
+  </PropertyGroup>
+
 </Project>
