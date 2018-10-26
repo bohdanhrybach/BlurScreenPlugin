@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.0</TargetFramework>
+    <AssemblyName>Plugin.BlurScreen</AssemblyName>
+    <RootNamespace>Plugin.BlurScreen</RootNamespace>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyFileVersion>1.0.0.0</AssemblyFileVersion>
+    <Version>1.0.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.0</TargetFramework>
+    <AssemblyName>Plugin.BlurScreen.Abstractions</AssemblyName>
+    <RootNamespace>Plugin.BlurScreen.Abstractions</RootNamespace>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyFileVersion>1.0.0.0</AssemblyFileVersion>
+    <Version>1.0.0.0</Version>
   </PropertyGroup>
 
 </Project>
