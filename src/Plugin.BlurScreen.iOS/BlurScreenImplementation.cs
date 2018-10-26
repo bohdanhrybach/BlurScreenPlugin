@@ -4,9 +4,15 @@ using UIKit;
 
 namespace Plugin.BlurScreen
 {
+    /// <summary>
+    /// Implementation for Feature
+    /// </summary>
     [Preserve(AllMembers = true)]
     public class BlurScreenImplementation : IBlurScreen
     {
+        /// <summary>
+        /// Blurs entire screen
+        /// </summary>
         public void Blur()
         {
             var controller = UIApplication.SharedApplication.KeyWindow.RootViewController;
@@ -14,6 +20,9 @@ namespace Plugin.BlurScreen
             controller.View.AddSubview(_blurredView);
         }
 
+        /// <summary>
+        /// Unblurs entire screen
+        /// </summary>
         public void Unblur()
         {
             _blurredView.RemoveFromSuperview();

@@ -5,8 +5,14 @@ using Plugin.CurrentActivity;
 
 namespace Plugin.BlurScreen
 {
+    /// <summary>
+    /// Implementation for Feature
+    /// </summary>
     public class BlurScreenImplementation : IBlurScreen
     {
+        /// <summary>
+        /// Blurs entire screen
+        /// </summary>
         public void Blur()
         {
             _blurredDialog = new BlurFragmentDialog();
@@ -15,6 +21,9 @@ namespace Plugin.BlurScreen
             _blurredDialog.Show(activity.SupportFragmentManager, nameof(BlurFragmentDialog));
         }
 
+        /// <summary>
+        /// Unblurs entire screen
+        /// </summary>
         public void Unblur()
         {
             _blurredDialog.Dismiss();
