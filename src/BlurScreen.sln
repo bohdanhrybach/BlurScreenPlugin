@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.BlurScreen.Abstracti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.BlurScreen", "Plugin.BlurScreen.Abstractions\Plugin.BlurScreen\Plugin.BlurScreen.csproj", "{4531DCDF-D1C9-4937-875A-1CD2AF856A65}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apple", "Apple", "{2B27828F-0BC9-4E07-91FA-1504D8B1BA8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.BlurScreen.iOS", "Plugin.BlurScreen.iOS\Plugin.BlurScreen.iOS.csproj", "{B04B3EAB-1E9C-48A9-B521-14007C3BB1AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,9 +50,22 @@ Global
 		{4531DCDF-D1C9-4937-875A-1CD2AF856A65}.Release|x64.Build.0 = Release|Any CPU
 		{4531DCDF-D1C9-4937-875A-1CD2AF856A65}.Release|x86.ActiveCfg = Release|Any CPU
 		{4531DCDF-D1C9-4937-875A-1CD2AF856A65}.Release|x86.Build.0 = Release|Any CPU
+		{B04B3EAB-1E9C-48A9-B521-14007C3BB1AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B04B3EAB-1E9C-48A9-B521-14007C3BB1AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B04B3EAB-1E9C-48A9-B521-14007C3BB1AF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B04B3EAB-1E9C-48A9-B521-14007C3BB1AF}.Debug|x64.Build.0 = Debug|Any CPU
+		{B04B3EAB-1E9C-48A9-B521-14007C3BB1AF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B04B3EAB-1E9C-48A9-B521-14007C3BB1AF}.Debug|x86.Build.0 = Debug|Any CPU
+		{B04B3EAB-1E9C-48A9-B521-14007C3BB1AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B04B3EAB-1E9C-48A9-B521-14007C3BB1AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B04B3EAB-1E9C-48A9-B521-14007C3BB1AF}.Release|x64.ActiveCfg = Release|Any CPU
+		{B04B3EAB-1E9C-48A9-B521-14007C3BB1AF}.Release|x64.Build.0 = Release|Any CPU
+		{B04B3EAB-1E9C-48A9-B521-14007C3BB1AF}.Release|x86.ActiveCfg = Release|Any CPU
+		{B04B3EAB-1E9C-48A9-B521-14007C3BB1AF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6ECF423A-FF4C-4416-B8AE-94E3080C113C} = {0A4DEF8D-3676-4898-924F-9B5DA1DC09CB}
 		{4531DCDF-D1C9-4937-875A-1CD2AF856A65} = {0A4DEF8D-3676-4898-924F-9B5DA1DC09CB}
+		{B04B3EAB-1E9C-48A9-B521-14007C3BB1AF} = {2B27828F-0BC9-4E07-91FA-1504D8B1BA8F}
 	EndGlobalSection
 EndGlobal
