@@ -9,12 +9,11 @@
     <Version>1.0.0.0</Version>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Plugin.BlurScreen.Abstractions.csproj" />
-  </ItemGroup>
-
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <DocumentationFile>bin\Release\netstandard1.0\Plugin.BlurScreen.xml</DocumentationFile>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Plugin.BlurScreen.Abstractions\Plugin.BlurScreen.Abstractions.csproj" />
+  </ItemGroup>
 </Project>
