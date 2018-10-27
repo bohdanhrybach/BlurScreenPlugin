@@ -1,10 +1,12 @@
 ﻿using System;
 using Android.App;
 using Android.Graphics;
+using Android.Runtime;
 using Android.Util;
 
 namespace Plugin.BlurScreen
 {
+    [Preserve(AllMembers = true)]
     public static class BlurUtility
     {
         public static Bitmap GetBlurredScreen(Activity activity, Int32 blurredRadius = 20)

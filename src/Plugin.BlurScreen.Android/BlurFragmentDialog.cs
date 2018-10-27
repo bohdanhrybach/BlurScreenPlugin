@@ -1,8 +1,10 @@
 ﻿using Android.Graphics.Drawables;
+using Android.Runtime;
 using Plugin.CurrentActivity;
 
 namespace Plugin.BlurScreen
 {
+    [Preserve(AllMembers = true)]
     public class BlurFragmentDialog : Android.Support.V4.App.DialogFragment
     {
         public override void OnStart()
