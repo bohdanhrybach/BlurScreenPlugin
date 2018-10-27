@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Android", "Android", "{1434
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.BlurScreen.Android", "Plugin.BlurScreen.Android\Plugin.BlurScreen.Android.csproj", "{00BD7384-A663-4857-A86F-827ED364171D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.BlurScreen", "Plugin.BlurScreen\Plugin.BlurScreen.csproj", "{B4EBE807-D5E3-4F57-9E59-1CAA4703B823}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
