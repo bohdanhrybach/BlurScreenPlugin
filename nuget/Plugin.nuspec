@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+   <metadata minClientVersion="2.8.1">
+       <id>Xam.Plugin.BlurScreen</id>
+       <version>1.0.0</version>
+       <title>BlurScreen Plugin for Xamarin</title>
+       <authors>Bohdan Hrybach</authors>
+       <owners>Bohdan Hrybach</owners>
+       <licenseUrl>https://github.com/bohdanhrybach/BlurScreenPlugin/blob/master/LICENSE</licenseUrl>
+       <projectUrl>https://github.com/bohdanhrybach/BlurScreenPlugin</projectUrl>
+       <requireLicenseAcceptance>false</requireLicenseAcceptance>
+       <description>
+         Blurs entire screen across Xamarin.iOS and Xamarin.Android
+       </description>
+       <releaseNotes>
+         Add ability to blur entire screen across Xamarin.iOS and Xamarin.Android
+       </releaseNotes>
+       <summary>
+         Blurs entire screen across Xamarin.iOS and Xamarin.Android
+       </summary>
+       <tags>xamarin, blur, plugin for xamarin, plugins, xamarin.android, xamarin.ios, android, xamarin.forms, ios</tags>
+       <dependencies>
+         <group targetFramework="netstandard1.0">
+           <dependency id="NETStandard.Library" version="1.6.1" />
+         </group>
+         <group targetFramework="MonoAndroid90">
+           <dependency id="Xamarin.Android.Support.v7.AppCompat" version="27.0.2.1" />
+           <dependency id="Xamarin.Android.Support.v4" version="27.0.2.1" />
+           <dependency id="Plugin.CurrentActivity" version="2.1.0.4" />
+         </group>
+         <group targetFramework="Xamarin.iOS10">
+         </group>
+       </dependencies>
+   </metadata>
+   <files> 
+   
+     <!--Core-->
+     <file src="..\src\Plugin.BlurScreen\bin\Release\netstandard1.0\Plugin.BlurScreen.*" target="lib\netstandard1.0" />
+
+     <!--Xamarin.Android-->
+     <file src="..\src\Plugin.BlurScreen.Android\bin\Release\Plugin.BlurScreen.*" target="lib\MonoAndroid90" />
+ 
+     <!--Xamarin.iOS Unified-->
+     <file src="..\src\Plugin.BlurScreen.iOS\bin\Release\Plugin.BlurScreen.*" target="lib\Xamarin.iOS10" />
+
+   </files>
+</package>

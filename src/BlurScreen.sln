@@ -1,4 +1,4 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
@@ -14,6 +14,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Android", "Android", "{143418F5-B8C8-431D-A685-974EA7C34389}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.BlurScreen.Android", "Plugin.BlurScreen.Android\Plugin.BlurScreen.Android.csproj", "{00BD7384-A663-4857-A86F-827ED364171D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C5BA1448-7B96-4AF9-A7A5-7EC7467B0D6D}"
+	ProjectSection(SolutionItems) = preProject
+		..\nuget\Plugin.nuspec = ..\nuget\Plugin.nuspec
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.BlurScreen", "Plugin.BlurScreen\Plugin.BlurScreen.csproj", "{B4EBE807-D5E3-4F57-9E59-1CAA4703B823}"
 EndProject
