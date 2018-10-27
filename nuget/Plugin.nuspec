@@ -23,7 +23,7 @@
          <group targetFramework="netstandard1.0">
            <dependency id="NETStandard.Library" version="1.6.1" />
          </group>
-         <group targetFramework="MonoAndroid90">
+         <group targetFramework="MonoAndroid80">
            <dependency id="Xamarin.Android.Support.v7.AppCompat" version="27.0.2.1" />
            <dependency id="Xamarin.Android.Support.v4" version="27.0.2.1" />
            <dependency id="Plugin.CurrentActivity" version="2.1.0.4" />
@@ -38,7 +38,7 @@
      <file src="..\src\Plugin.BlurScreen\bin\Release\netstandard1.0\Plugin.BlurScreen.*" target="lib\netstandard1.0" />
 
      <!--Xamarin.Android-->
-     <file src="..\src\Plugin.BlurScreen.Android\bin\Release\Plugin.BlurScreen.*" target="lib\MonoAndroid90" />
+     <file src="..\src\Plugin.BlurScreen.Android\bin\Release\Plugin.BlurScreen.*" target="lib\MonoAndroid80" />
  
      <!--Xamarin.iOS Unified-->
      <file src="..\src\Plugin.BlurScreen.iOS\bin\Release\Plugin.BlurScreen.*" target="lib\Xamarin.iOS10" />
