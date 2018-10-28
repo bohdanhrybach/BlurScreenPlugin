@@ -2,7 +2,7 @@
 Simple cross platform plugin for bluring entire screen. Uses FragmentDialog for Android and UIViewController for iOS.
 
 ### Setup
-* Available on NuGet: https://www.nuget.org/packages/Xam.Plugin.BlurScreen
+* Available on NuGet: https://www.nuget.org/packages/Xam.Plugin.BlurScreen [![NuGet](https://img.shields.io/nuget/v/Xam.Plugin.BlurScreen.svg?label=NuGet)](https://www.nuget.org/packages/Xam.Plugin.BlurScreen/)
 * Install into your Core project and Client projects.
 
 ### API Usage
