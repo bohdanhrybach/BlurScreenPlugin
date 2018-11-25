@@ -13,5 +13,11 @@ Examples:
  1) CrossBlurScreen.Current.Blur();
  2) CrossBlurScreen.Current.Unblur();
  
+ ### Important
+ You should use AppCompatActivity on Android
+ 
  ### Dependencies
  BlurScreenPlugin for Xamarin.Android depends on CurrentActivityPlugin, so you shoud initialize it in your project: https://github.com/jamesmontemagno/CurrentActivityPlugin#version-20
+ 
+ ### Screenshots
+ ![Landing](art/sampleScreeniOS.png)
