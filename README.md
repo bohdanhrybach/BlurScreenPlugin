@@ -10,7 +10,7 @@ Simple cross platform plugin for bluring entire screen. Uses FragmentDialog for 
 Call **CrossBlurScreen.Current** from any project to gain access to APIs.
 
 Examples: 
- 1) CrossBlurScreen.Current.Blur();
+ 1) await CrossBlurScreen.Current.BlurAsync();
  2) CrossBlurScreen.Current.Unblur();
  
  ### Important
