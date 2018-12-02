@@ -1,4 +1,6 @@
-﻿namespace Plugin.BlurScreen.Abstractions
+﻿using System.Threading.Tasks;
+
+namespace Plugin.BlurScreen.Abstractions
 {
     /// <summary>
     /// Interface for BlurScreen
@@ -6,9 +8,9 @@
     public interface IBlurScreen
     {
         /// <summary>
-        /// Blurs entire screen
+        /// Blurs entire screen async
         /// </summary>
-        void Blur();
+        Task BlurAsync();
 
         /// <summary>
         /// Unblurs entire screen

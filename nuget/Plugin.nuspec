@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
    <metadata minClientVersion="2.8.1">
        <id>Xam.Plugin.BlurScreen</id>
-       <version>1.0.1</version>
+       <version>2.0.0</version>
        <title>BlurScreen Plugin for Xamarin</title>
        <authors>Bohdan Hrybach</authors>
        <owners>Bohdan Hrybach</owners>
@@ -13,7 +13,8 @@
          Blurs entire screen across Xamarin.iOS and Xamarin.Android
        </description>
        <releaseNotes>
-         Add ability to blur entire screen across Xamarin.iOS and Xamarin.Android
+         To fix Android:
+         Replace Blur method with BlurAsync in order of async nature of Android DialogFragment
        </releaseNotes>
        <summary>
          Blurs entire screen across Xamarin.iOS and Xamarin.Android

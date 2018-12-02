@@ -1,6 +1,7 @@
 ﻿using Foundation;
 using Plugin.BlurScreen.Abstractions;
 using UIKit;
+using System.Threading.Tasks;
 
 namespace Plugin.BlurScreen
 {
@@ -11,13 +12,15 @@ namespace Plugin.BlurScreen
     public class BlurScreenImplementation : IBlurScreen
     {
         /// <summary>
-        /// Blurs entire screen
+        /// Blurs entire screen async
         /// </summary>
-        public void Blur()
+        public Task BlurAsync()
         {
             var controller = UIApplication.SharedApplication.KeyWindow.RootViewController;
             _blurredView = CreateBlurEffectView(controller);
             controller.View.AddSubview(_blurredView);
+
+            return Task.FromResult(true);
         }
 
         /// <summary>
@@ -25,6 +28,11 @@ namespace Plugin.BlurScreen
         /// </summary>
         public void Unblur()
         {
+            if (_blurredView == null)
+            {
+                return;
+            }
+
             _blurredView.RemoveFromSuperview();
             _blurredView.Dispose();
             _blurredView = null;
